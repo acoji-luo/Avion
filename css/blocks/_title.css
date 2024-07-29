@@ -17,6 +17,10 @@
 	text-align: center;
 }
 
+.title--mb-small {
+	margin-bottom: 32px;
+}
+
 .title--mb-large {
 	margin-bottom: 50px;
 }

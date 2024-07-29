@@ -19,3 +19,8 @@
 	color: var(--dark-primary);
 	background: var(--light-grey);
 }
+
+.btn--theme-darker {
+	color: var(--white);
+	background: var(--dark-primary);
+}

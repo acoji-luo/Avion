@@ -9,6 +9,7 @@
 @import url("blocks/_btn.css");
 @import url("blocks/_header.css");
 @import url("blocks/_logo.css");
+@import url("blocks/_social.css");
 @import url("blocks/_nav.css");
 @import url("blocks/_form.css");
 @import url("blocks/centered.css");
@@ -20,6 +21,7 @@
 @import url("blocks/_product.css");
 @import url("blocks/_newsletter.css");
 @import url("blocks/_about.css");
+@import url("blocks/_footer.css");
 
 body {
 	font-family: var(--font-family);

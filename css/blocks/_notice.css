@@ -1,0 +1,23 @@
+.notice {
+	position: relative;
+	background: var(--dark-primary);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 400;
+	font-size: 14px;
+	color: var(--white);
+	gap: 8px;
+	padding: 10px 16px;
+}
+
+.notice--hidden {
+	display: none;
+}
+
+.notice__close {
+	position: absolute;
+	right: 16px;
+	top: 54%;
+	transform: translateY(-50%);
+}

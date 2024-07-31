@@ -23,6 +23,11 @@
 @import url("blocks/_about.css");
 @import url("blocks/_footer.css");
 
+/* about */
+
+@import url("blocks/_notice.css");
+@import url("blocks/_about-hero.css");
+
 body {
 	font-family: var(--font-family);
 	line-height: 1.5;

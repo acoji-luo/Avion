@@ -27,6 +27,7 @@
 
 @import url("blocks/_notice.css");
 @import url("blocks/_about-hero.css");
+@import url("blocks/_brand-info.css");
 
 body {
 	font-family: var(--font-family);

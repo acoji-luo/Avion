@@ -1,3 +1,7 @@
+.about {
+	background: var(--white);
+}
+
 .about__content {
 	display: flex;
 }
@@ -9,10 +13,7 @@
 	padding-top: 72px;
 	padding-bottom: 54px;
 	padding-right: 50px;
-	padding-left: max(
-		var(--container-offset),
-		calc((100% - var(--container-width)) / 2)
-	);
+	padding-left: max(var(--container-offset), calc((100% - var(--container-width)) / 2));
 	width: 50%;
 }
 
@@ -41,4 +42,16 @@
 
 .about__btn {
 	margin-top: auto;
+}
+
+.about--reverse {
+	background: var(--light-grey);
+}
+
+.about--reverse .about__content {
+	flex-direction: row-reverse;
+}
+
+.about--reverse .about__info {
+	padding-left: 84px;
 }

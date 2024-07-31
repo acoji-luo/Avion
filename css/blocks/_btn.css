@@ -20,6 +20,11 @@
 	background: var(--light-grey);
 }
 
+.btn--theme-darker {
+	color: var(--white);
+	background: var(--dark-primary);
+}
+
 .btn--theme-white {
 	color: var(--dark-primary);
 	background: var(--white);

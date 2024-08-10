@@ -114,32 +114,8 @@
 }
 
 @media (max-width: 767.98px) {
-	section {
-		display: none;
-	}
-
-	.hero {
-		display: block;
-		padding: 0;
-	}
-
-	.benefits {
-		display: block;
-	}
-
-	.products {
-		display: block;
-	}
-
-	.newsletter {
-		display: block;
-	}
-
-	footer {
-		display: none;
-	}
-
 	:root {
+		--container-offset: 24px;
 		--gap: 16px;
 	}
 
@@ -238,5 +214,90 @@
 	.products__item--mobile {
 		width: 200px;
 		flex-shrink: 0;
+	}
+
+	.newsletter {
+		padding: 0;
+		background-color: var(--white);
+	}
+
+	.newsletter__content {
+		padding: 48px 9px;
+		align-items: flex-start;
+	}
+
+	.title--large-xl {
+		font-size: 20px;
+		line-height: 140%;
+	}
+
+	.newsletter__title {
+		max-width: none;
+	}
+
+	.newsletter__desc {
+		margin-bottom: 60px;
+		font-size: 14px;
+		line-height: 150%;
+		text-align: left;
+	}
+
+	.form__input {
+		width: 224px;
+	}
+
+	.form__btn {
+		width: auto;
+		padding: 16px 22px;
+	}
+
+	.about__content {
+		flex-direction: column;
+	}
+
+	.about__info {
+		padding: 48px 24px;
+		padding-bottom: 38px;
+		width: 100%;
+	}
+
+	.about__image {
+		width: 100%;
+		height: 358px;
+	}
+
+	.about__btn {
+		margin-top: 64px;
+	}
+
+	.footer__column {
+		grid-column: 2 span;
+	}
+
+	.footer__column--big {
+		grid-column: 4 span;
+	}
+
+	.social {
+		display: none;
+	}
+
+	.footer {
+		padding-top: 40px;
+	}
+
+	.footer__top {
+		row-gap: 40px;
+		padding-bottom: 16px;
+	}
+
+	.footer__form {
+		flex-direction: row;
+		align-items: center;
+		gap: 0;
+	}
+
+	.footer__bottom {
+		justify-content: center;
 	}
 }

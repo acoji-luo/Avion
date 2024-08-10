@@ -1,14 +1,23 @@
 .product {
-	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 24px;
 }
 
-.product__image {
+.product__top {
 	position: relative;
+}
+
+.product__image {
+	display: block;
 	max-width: 100%;
+	object-fit: cover;
+}
+
+.product__image img {
+	width: 100%;
+	height: auto;
 }
 
 .product__content {
@@ -34,7 +43,6 @@
 
 .product__link::after {
 	content: "";
-	position: absolute;
 	inset: 0;
 }
 

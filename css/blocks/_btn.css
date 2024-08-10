@@ -25,6 +25,14 @@
 	background: var(--dark-primary);
 }
 
+.btn--with-icon {
+	gap: 12px;
+}
+
+.btn--with-icon svg {
+	transition: transform 0.3 ease;
+}
+
 .btn--theme-white {
 	color: var(--dark-primary);
 	background: var(--white);

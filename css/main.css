@@ -1,11 +1,14 @@
 /* global */
 
 @import url("reset.css");
+@import url("settings.css");
 @import url("_fonts.css");
 @import url("_vars.css");
 
 /* blocks */
 
+@import url("blocks/_burger.css");
+@import url("blocks/_stepper.css");
 @import url("blocks/_btn.css");
 @import url("blocks/_header.css");
 @import url("blocks/_logo.css");
@@ -23,9 +26,38 @@
 @import url("blocks/_about.css");
 @import url("blocks/_footer.css");
 
+/* about */
+
+@import url("blocks/_notice.css");
+@import url("blocks/_about-hero.css");
+@import url("blocks/_brand-info.css");
+
+/* catalog */
+
+@import url("blocks/_inner-hero.css");
+@import url("blocks/_catalog.css");
+@import url("blocks/_filters.css");
+@import url("blocks/_custom-checkbox.css");
+
+/* product */
+
+@import url("blocks/_product-info.css");
+
+/* cart */
+
+@import url("blocks/_cart.css");
+
+/* media */
+
+@import url("blocks/_media.css");
+
 body {
-	font-family: var(--font-family);
 	line-height: 1.5;
+	font-family: var(--font-family);
+}
+
+.page__body {
+	min-width: 390px;
 }
 
 .container {
